@@ -1,0 +1,1 @@
+A demo page to practice Yeoman, Node.js, Gulp, Bower, and the collection and display of api data via JSON. Also with SCSS goodness!
