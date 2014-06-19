@@ -14,12 +14,4 @@ payload.results.forEach(function(result){
 });
 
 
- //Tims solution for soundcloud https://gist.github.com/twhitacre/e896f433f5221ecb6a57  
-    // var track, title, artwork;
-    //     rocktracks.forEach (function (a) {
-    //       title = '<p>' + a.title + '</p>';
-    //       artwork = '<img src="' + a.artwork_url + '" />';
-    //       track = '<li>' + artwork + title;
-    //       track += '</li>';
-    //       $('#tracks').append(track);
-    // });
+
