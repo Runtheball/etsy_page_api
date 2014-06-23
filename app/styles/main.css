@@ -5215,7 +5215,7 @@ body {
 
 /* Custom page header */
 .header {
-  padding: 1em;
+  padding: 1em 0;
   border-bottom: 1px solid #e5e5e5;
   line-height: 1em; }
   .header h1 {
@@ -5228,7 +5228,6 @@ h1 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
-  padding-bottom: 19px;
   color: #f35626;
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
@@ -5258,6 +5257,8 @@ h1 {
   .item p {
     height: 4.3em;
     overflow: hidden; }
+  .item * > :nth-child(4n+4) {
+    margin-right: 0; }
 
 .item_price {
   float: right;
@@ -5275,6 +5276,7 @@ h1 {
     max-width: 960px; }
 
   /* Remove the padding we set earlier */
+  .header,
   .marketing,
   .footer {
     padding-left: 0;
