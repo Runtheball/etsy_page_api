@@ -9,7 +9,7 @@ payload.results.forEach(function(result){
     // var output = '<div class="item">' + item_pic + item_title + item_desc + item_price + item_curr + '</div>'
     // document.getElementById("item").innerHTML=output;
 
-    var item = '<div class="item"><img src=' + itemPic + ' /><p>' + itemTitle + '</p><br><span class="text-right">' + itemPrice + itemCurr + '</span></div>';
+    var item = '<div class="item"><img src=' + itemPic + ' /><p>' + itemTitle + '</p><br><span class="item_price">' + itemPrice + " " + itemCurr + '</span></div>';
     $('#items').append(item);
 });
 
