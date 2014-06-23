@@ -29,20 +29,25 @@ body {
 
 /* Custom page header */
 .header {
-    border-bottom: 1px solid #e5e5e5;
+    padding:1em;
+    border-bottom: 1px solid #e5e5e5; 
+    line-height:1em; 
 
-    /* Make the masthead heading the same height as the navigation */
-    h1 {
-        margin-top: 0;
-        margin-bottom: 0;
-        line-height: 40px;
-        padding-bottom: 19px;
-        color: #f35626;
-        background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -webkit-animation: hue 60s infinite linear;
-    }
+    h1 { margin-bottom:0px; padding-bottom: 0px; } 
+
+    ul { margin:0.3em 1em 1em 0; } 
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
 }
 
 /* Custom page footer */
@@ -60,24 +65,22 @@ body {
 /* Items area and individual item styling */
 
 .item {
-    width:30%;
-    padding:1%;
-    border:1px solid #ccc;
-    margin:0 1% 2% 0;
+    width: 23.5%;
+    padding: 1%;
+    border: 1px solid #ccc;
+    margin: 0 2% 2% 0;
     display:inline-block;
-    vertical-align: top;  
+    vertical-align: top;     
 
-    img {
-        width:100%;
-    }
+    img { width:100%; }
 
     p { 
-        height:3.8em; 
+        height:4.3em; 
         overflow:hidden;
     }
 }
 
-.text-right{ float:right; }
+.item_price{ float:right; color:green; }
 
 
 
@@ -92,11 +95,10 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 730px;
+        max-width: 960px;
     }
 
     /* Remove the padding we set earlier */
-    .header,
     .marketing,
     .footer {
         padding-left: 0;
