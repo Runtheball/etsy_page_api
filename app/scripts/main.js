@@ -13,5 +13,7 @@ payload.results.forEach(function(result){
     $('#items').append(item);
 });
 
+$("* > :nth-child(4n+4)").css("margin-right", 0);
+
 
 
